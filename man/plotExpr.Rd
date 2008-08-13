@@ -1,6 +1,5 @@
 \name{plotExpr}
 \alias{plotExpr}
-\alias{plotFun}
 \alias{plotPackage}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ plotExpr }
@@ -30,11 +29,11 @@ plotExpr(expr, filetype = NULL, prefix = NULL, path = NULL, clear = FALSE)
 }
 \seealso{\code{\link{plotFun}}, \code{\link{plotExpr}}}
 \examples{
-test1 <- plotExpr(c("plot(1:10)", "plot(4:40)", "x<-3", "plot(2:23)"),
-                  c("pdf", "ps"), "test", "testdir1", FALSE)
+#test1 <- plotExpr(c("plot(1:10)", "plot(4:40)", "x<-3", "plot(2:23)"),
+#                  c("pdf", "ps"), "test", "testdir1", FALSE)
 # There should now be a folder "testdir1" in getwd() containing
 # pdf and ps files and test-log.xml, ie
-list.files("testdir1")
+#list.files("testdir1")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
